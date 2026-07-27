@@ -1,0 +1,43 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.illuminateed.com/partners-integrations/
+docs:
+- https://www.illuminateed.com/partners-integrations/
+- https://www.illuminateed.com/resources/security-privacy/
+notes: >-
+  Illuminate Education publishes education-interoperability certifications and
+  regulatory data-privacy alignment on its Partners & Integrations and Security
+  & Privacy pages. No public OpenAPI is available, so cross-cutting API
+  standards (oauth2/oidc/rfc9457/pagination) could not be derived; only the
+  provider's published standards claims are asserted here.
+standards:
+- id: lti-1.0
+  conforms: true
+  evidence: "Partners & Integrations page states 'LTI 1.0, LTI 1.1, and LTI Outcomes Service Certified'"
+- id: lti-1.1
+  conforms: true
+  evidence: "Partners & Integrations page states 'LTI 1.0, LTI 1.1, and LTI Outcomes Service Certified'"
+- id: lti-outcomes-service
+  conforms: true
+  evidence: "Partners & Integrations page states LTI Outcomes Service Certified"
+- id: oneroster
+  conforms: true
+  evidence: "OneRoster export solution for student roster and grade data; Clever/ClassLink SSO rostering"
+- id: ed-fi
+  conforms: true
+  evidence: "Partners & Integrations page states 'EdFi 2.5 and higher standards' for assessment data exchange"
+- id: qti
+  conforms: true
+  evidence: "Partners & Integrations page states many partners employ QTI technology for assessment item types"
+- id: ferpa
+  conforms: true
+  evidence: "Security & Privacy page states data safeguards in alignment with the Family Educational Rights and Privacy Act (FERPA)"
+- id: coppa
+  conforms: true
+  evidence: "Security & Privacy page includes a 'Children under the Age of Thirteen' provision addressing COPPA"
+- id: oauth2
+  conforms: false
+  evidence: no public OpenAPI or documented OAuth surface
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public OpenAPI to assert problem+json error format

@@ -1,8 +1,28 @@
 aid: illuminate-education
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/illuminate-education.png
 name: Illuminate Education
-description: 'Illuminate Education is a company surfaced as a portfolio company of insight-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: education. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Illuminate Education is a K-12 education technology company providing assessment, data
+  analytics, and Multi-Tiered System of Supports (MTSS) tools to schools and districts. Its
+  platform serves roughly 17 million students across 5,200 schools and districts in all 50
+  states, taking a "whole child" approach that combines academic and social-emotional-behavioral
+  data. Marquee products are FastBridge (universal screening and progress monitoring), DnA
+  (standards-based assessment creation and scoring), and eduCLIMBER (MTSS collaboration and
+  district data management). Illuminate does not publish a public developer API portal or
+  OpenAPI; data exchange runs through education-interoperability standards (LTI 1.0/1.1
+  Certified, OneRoster, Ed-Fi 2.5+, QTI) and partner/SIS/LMS integrations. It is a portfolio
+  company of Insight Partners, headquartered in Irvine, California.
 url: https://raw.githubusercontent.com/api-evangelist/illuminate-education/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Education
+- EdTech
+- K-12
+- Assessment
+- Data Analytics
+- MTSS
+- Interoperability
+- Student Data
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/illuminate-education-domain-security.yml
 - type: Website
   url: https://www.illuminateed.com/
+- type: Support
+  name: FastBridge Help Center
+  url: https://fastbridge.illuminateed.com/hc/en-us
+- type: Blog
+  url: https://www.illuminateed.com/blog/
+- type: PrivacyPolicy
+  url: https://www.illuminateed.com/privacy-policy/
+- type: Compliance
+  name: Security & Privacy (FERPA / COPPA)
+  url: https://www.illuminateed.com/resources/security-privacy/
+- type: Conformance
+  name: Interoperability standards (LTI/OneRoster/Ed-Fi/QTI)
+  url: conformance/illuminate-education-conformance.yml
+- type: Integrations
+  name: Partners & Integrations
+  url: https://www.illuminateed.com/partners-integrations/
+- type: LLMsTxt
+  url: llms/illuminate-education-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

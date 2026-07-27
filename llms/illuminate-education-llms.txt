@@ -1,0 +1,31 @@
+# Illuminate Education
+
+> Illuminate Education is a K-12 education technology company providing assessment, data analytics, and Multi-Tiered System of Supports (MTSS) tools to schools and districts. Its platform serves roughly 17 million students across 5,200 schools and districts in all 50 states, centered on a "whole child" approach that combines academic and social-emotional-behavioral (SEB) data. Illuminate is a portfolio company of Insight Partners.
+
+## Products
+
+- [FastBridge](https://www.illuminateed.com/products/fastbridge/): Universal screening and progress monitoring for academics and SEB, including curriculum-based measures, computer adaptive tests, dyslexia screening, and intervention recommendations.
+- [DnA](https://www.illuminateed.com/products/dna/): Standards-based assessment creation and administration with instant scoring and formative feedback.
+- [eduCLIMBER](https://www.illuminateed.com/products/educlimber/): MTSS collaboration and management platform for district-level whole-child data management.
+
+## Interoperability
+
+> Illuminate exposes data primarily through education-interoperability standards and partner integrations rather than a public developer API portal.
+
+- [Partners & Integrations](https://www.illuminateed.com/partners-integrations/): LTI 1.0 / LTI 1.1 / LTI Outcomes Service Certified; OneRoster roster/grade export; Ed-Fi 2.5+ assessment data exchange; QTI assessment item types. SSO/rostering via Clever, ClassLink, and Rapid Identity. LMS integrations (Canvas, Blackboard, Brightspace, Moodle, Schoology) and SIS integrations (Aeries, PowerSchool, Skyward, Synergy, Infinite Campus).
+
+## Trust & Privacy
+
+- [Privacy Policy](https://www.illuminateed.com/privacy-policy/)
+- [Security & Privacy](https://www.illuminateed.com/resources/security-privacy/): FERPA-aligned student data safeguards and COPPA provisions for children under 13.
+
+## Support
+
+- [Support / Help Center](https://fastbridge.illuminateed.com/hc/en-us)
+- [Contact](https://www.illuminateed.com/contact-us/)
+- [Blog](https://www.illuminateed.com/blog/)
+
+## Notes for agents
+
+- There is no publicly documented REST API, OpenAPI definition, SDK, or developer portal. Data exchange is via LTI, OneRoster, Ed-Fi, and QTI standards through partner/SIS/LMS integrations.
+- No public /.well-known/security.txt (HTTP 404) and no published vulnerability-disclosure or bug-bounty program as of this writing.

@@ -1,0 +1,12 @@
+generated: '2026-07-19'
+method: searched
+host: https://www.illuminateed.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /llms.txt
+  status: 404
+notes: >-
+  No /.well-known/ discovery documents are published on the primary host. Both
+  security.txt (RFC 9116) and llms.txt returned HTTP 404. Recorded as valid
+  absence; no WellKnown/SecurityTxt pointer is emitted since no document exists.
